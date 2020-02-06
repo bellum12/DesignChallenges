@@ -1,0 +1,193 @@
+.Main
+{
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 10px solid;
+  border-radius: 10px;
+  border-color: #304878;
+
+  padding: 15px;
+
+  font-family: monospace;
+
+  background-color: black;
+
+  color: #7890A8;
+
+  font-family: font;
+}
+
+.nav
+{
+  font-family: monospace;
+  font-size: 20pt;
+
+  background-color: #333;
+
+  height: 75px;
+}
+
+.nav div
+{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav li a {
+    font-size: 20pt;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: auto;
+
+  padding-top: 20px;
+  padding-bottom: 0px;
+  width: 166px;
+  height: 55px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #111;
+}
+
+.List
+{
+  margin-right: 400px;
+}
+
+.Line
+{
+  height: 25px;
+
+  background-color: #304878;
+}
+
+h1
+{
+  text-align: center;
+
+  color: #F0A818;
+
+  font-size: 55pt;
+}
+
+h2
+{
+  margin-left: 35px;
+
+  color: #add8e6;
+
+  font-size: 35pt;
+
+
+}
+
+,Main p, li
+{
+  font-family: monospace;
+  font-size: 16pt;
+
+}
+
+.Pic
+{
+    width: 180px;
+    height: 180px;
+    float: right;
+
+    border: 3px solid;
+    border-color: #F0A818;
+    border-radius: 15px;
+
+}
+
+.ear
+{
+    width: 220px;
+    height: 165px;
+    float: right;
+
+    margin-right: 100px;
+    margin-top: 100px;
+
+    border: 3px solid;
+    border-color: #F0A818;
+    border-radius: 15px;
+
+}
+
+.Night
+{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    border: 10px solid;
+    border-radius: 15px;
+    border-color: #F0A818;
+}
+
+@font-face {
+  font-family: 'font';
+  src:url('font.ttf');
+}
+
+
+ul
+{
+  list-style-type: none;
+  margin-left: -35px;
+}
+
+.Main a:link, a:visited
+{
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #add8e6;
+  font-size: 35pt;
+  font-family: monospace;
+
+  text-decoration: none;
+
+  text-align: center;
+
+  opacity: 0.4;
+}
+
+.Main a:hover, a:active
+{
+  color: #add8e6;
+  font-family: monospace;
+
+  opacity: 1;
+
+  text-decoration: line-through;
+
+  text-align: center;
+}
+
+body
+{
+  background-image: url('Background.jpg');
+  background-repeat: round;
+}
